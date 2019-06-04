@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Test shell scripts
+
+echo "test2"
+echo "testing 2 again"

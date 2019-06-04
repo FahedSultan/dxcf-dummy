@@ -14,11 +14,14 @@
 *.gif binary
 
 # Explicitly identify script files
-bin/* text eol=lf
 *.sh text eol=lf
 *.ps1 text
 *.bat text
 *.cmd text
+bin/* text eol=lf
+bin/*.ps1 text
+bin/*.bat text
+bin/*.cmd text
 
 # Explicitly identify text files
 *.txt text

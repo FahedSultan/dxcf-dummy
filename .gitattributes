@@ -19,9 +19,9 @@
 *.bat text
 *.cmd text
 bin/* text eol=lf
-#bin/*.ps1 text=auto
-#bin/*.bat text=auto
-#bin/*.cmd text=auto
+bin/*.ps1 -eol
+bin/*.bat -eol
+bin/*.cmd -eol
 
 # Explicitly identify text files
 *.txt text

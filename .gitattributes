@@ -1,0 +1,25 @@
+# Autodetect text files, but exclude shell scripts, which should always use Linux line endings
+* text=auto
+bin/* text eol=lf
+bin/*.sh text eol=lf
+bin/*.ps1 text=auto
+bin/*.bat text=auto
+bin/*.cmd text=auto
+
+# Explicitly identify binary files
+*.xls binary
+*.xlsx binary
+*.doc binary
+*.docx binary
+*.vsd binary
+*.vsdx binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.gif binary
+
+# Explicitly identify text files
+*.txt text
+*.md text
+*.json text
+*.yaml text

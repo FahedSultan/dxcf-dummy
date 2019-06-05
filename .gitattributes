@@ -1,6 +1,12 @@
 # Autodetect text files
 * text=auto
 
+# Explicitly identify text files
+*.txt text
+*.md text
+*.json text
+*.yaml text
+
 # Explicitly identify binary files
 *.xls binary
 *.xlsx binary
@@ -23,8 +29,7 @@ bin/*.ps1 -eol
 bin/*.bat -eol
 bin/*.cmd -eol
 
-# Explicitly identify text files
-*.txt text
-*.md text
-*.json text
-*.yaml text
+# Explicitly identify template files
+templates/*.yaml text eol=lf
+templates/*.json text eol=lf
+

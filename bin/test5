@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Test shell scripts accidental CRLF on save
+
+echo "test5"
+echo "testing 5 again"
